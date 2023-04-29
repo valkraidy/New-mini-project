@@ -1,0 +1,257 @@
+@import url('http://fonts.googleapis.com/css?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height:100vh;
+    width: 100%;
+    background: linear-gradient(45deg,#87adfe ,#ff77cd) ;
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+  
+   
+
+}
+.navbar{
+    width: 100%;
+    height: 10vh;
+    margin: auto;
+    display: flex;
+    align-items:  center; ;
+    cursor: pointer;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+    padding: 50;
+    height: 120;
+    border-radius: 50px;
+    display: grid;
+   
+
+}
+.cart{
+    width:40px ;
+    cursor: pointer;
+    border-radius: 50px;
+    display: flex;
+
+}
+nav{
+    flex: 1;
+    padding-left: 60px;
+    display: flex;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+    font-weight: 800;
+   font-style: normal;
+
+   background-color:rgba(253, 243, 252, 0.226);
+   color: black;
+   text-decoration: none;
+   border: 1px solid transparent;
+   font-weight: bold;
+   padding: 6px 13px;
+   border-radius: 30px;
+   transition: .4s;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: medium;
+   border-color: #696f94;
+
+  
+    
+
+}
+nav ul li a{
+    text-decoration: none;
+    
+
+}
+.content h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #232d60;
+    display: flex;
+    position: relative;
+    justify-content: center;
+   
+    
+    
+    
+   
+   
+
+
+}
+.content p{
+    font-size: 20px;
+   color: #131520;
+   font-style: italic;
+   display: flex;
+   padding-right: 120px;
+  justify-content: center;
+  align-items: normal;
+  padding-bottom: 50px;
+  word-spacing: 5px;
+  letter-spacing: 0.5px;
+ 
+ 
+}
+.content{
+    margin-left: 10%;
+    margin-top: 10%;
+   
+}
+
+.content .btn {
+    display:inline-flex;
+    background: linear-gradient(45deg,#87adfe ,#ff77cd);
+    border-radius: 16px;
+    padding: 10px 20px;
+   box-sizing: border-box;
+    text-decoration: none;
+    color:#ffff;
+    box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+   font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;
+    transition: .4s;
+    justify-content:right;
+    padding-right: -120px;
+    position: relative;
+   
+   
+   
+}
+
+
+
+.arrow-icons img{
+    width: 40px;
+}
+.feature-img{
+    height: 400px;
+    position:absolute;
+    bottom: 0;
+    right: 90px;
+    display: flex;
+  
+    padding-bottom: 90;
+  
+   
+
+}
+.container{
+  position: relative;
+  width: 100%;
+  height:100vh;
+  width: 100%;
+  background: linear-gradient(45deg,#87adfe ,#ff77cd) ;
+  background-position: center;
+  background-size: cover;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-sizing: border-box;
+  position: relative;
+ 
+
+ 
+ 
+}
+
+.about{
+    width:100% ;
+    padding: 100px 0px;
+   background:linear-gradient(45deg,#ff77cd,#87adfe,#ff77cd) ;
+}
+.about img{
+    height: 500px;
+    width: 350px;
+    border-radius: 50px;
+    
+    padding-bottom: 10;
+    transition: .4s;
+    
+
+}
+.about-text{
+    width: 550px;
+
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font: weight 100px; 
+}
+.about-text h2{
+    color: black;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+
+
+}
+.about-text h4{
+    color: black;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    
+    font-weight: 500;
+    font-size: 18;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    margin-bottom: 40px;
+
+
+
+}
+button{
+    background-color: rgb(14, 7, 7);
+    color: rgb(199, 199, 218);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+   
+   
+
+
+}
+button:hover{
+
+background-color: transparent;
+border: 2px solid ;
+cursor: pointer;
+
+
+}
+
+    
+
+
+
+
+
+
