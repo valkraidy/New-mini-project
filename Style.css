@@ -176,7 +176,7 @@ nav ul li a{
 .about img{
     height: 500px;
     width: 350px;
-    border-radius: 50px;
+    border-radius: 75px;
     
     padding-bottom: 10;
     transition: .4s;
