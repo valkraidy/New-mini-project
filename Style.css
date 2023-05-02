@@ -384,7 +384,7 @@ footer p:nth-child(1){
 }
 footer p:nth-child(2){
     font-size: 17px;
-    color: black;
+    color:white;
    width: 500px;
    text-align: center;
    line-height: 20px;
